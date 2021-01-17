@@ -184,31 +184,19 @@
 
 
 @media(max-width:407px){
+    html{
+        font-size: 50%;
+    }
     #menu{
         display: flex;
         flex-direction: column;
     }
-
     .service-box i.fa{
         font-size: 3rem;
-    }
-
-    .service-box h3{
-        font-size: 1rem;
-    }
-
-    .service-box p{
-        font-size: .8rem;
-    }
-
-    .footer-widget h4{
-        font-size: 1rem;
     }
 
     .testimonials img{
         width: 5rem;
         height: 5rem;
-    }
+    } 
 }
-
-
